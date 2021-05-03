@@ -1,4 +1,3 @@
-import logo from "../assets/images/logo.png";
 import React from "react";
 import styled from "styled-components";
 
@@ -7,6 +6,7 @@ const MainTitle = styled.div`
     font-size: 60px;
     margin:50px 0 0 50px;
     font-family: Luminary KR;
+    padding-top:40px;
 `
 
 const SubTitle = styled.div`

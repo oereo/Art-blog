@@ -12,6 +12,9 @@ import InboxIcon from '@material-ui/icons/MoveToInbox';
 import MailIcon from '@material-ui/icons/Mail';
 import styled from "styled-components";
 
+import Menu from "../assets/images/menu_icon.jpg"
+import logo from "../assets/images/logo.png";
+
 const useStyles = makeStyles({
   list: {
     width: 250,
@@ -22,7 +25,19 @@ const useStyles = makeStyles({
 });
 
 const StyledNavbar = styled.div`
-    margin: 60px 0 0 0;
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    float: right;
+    padding-top:40px;
+`
+
+const StyledDoor = styled.span`
+    display: flex;
+    height: 120px;
+    margin:0 40px 0 0;
+    width: 70px;
+    float: right;
 `
 
 export default function Navbar() {
@@ -75,7 +90,11 @@ export default function Navbar() {
     <StyledNavbar>
       {['right'].map((anchor) => (
         <React.Fragment key={anchor}>
-          <Button onClick={toggleDrawer(anchor, true)}>{anchor}</Button>
+          <Button onMouseEnter={toggleDrawer(anchor, true)}>
+            <StyledDoor>
+              <img src={Menu} alt="menu"/>
+            </StyledDoor>
+          </Button>
           <SwipeableDrawer
             anchor={anchor}
             open={state[anchor]}
