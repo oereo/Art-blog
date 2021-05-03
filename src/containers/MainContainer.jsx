@@ -1,9 +1,11 @@
 import React, {Component} from 'react';
 import MainContent from "../components/MainContent";
+import Navbar from "./Navbar";
 
 function MainContainer() {
     return (
-        <div>dsf
+        <div>
+            <Navbar/>
             <MainContent/>
         </div>
     );
