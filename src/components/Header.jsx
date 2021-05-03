@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import oc from 'open-color';
+import logo from '../assets/images/logo.png'
 
 const Wrapper = styled.div`
     /* 레이아웃 */
@@ -22,9 +22,19 @@ const Wrapper = styled.div`
     font-size: 1.5rem;
 `;
 
+const StyledLogo = styled.span`
+    display: flex;
+    height: 30px;
+    width: 30px;
+    margin-right:3px;
+`
+
 
 const Header = () => (
     <Wrapper>
+        <StyledLogo>
+            <img src={logo} alt="logo"/>
+        </StyledLogo>
         www.frauimbad.com
     </Wrapper>
 );
