@@ -11,3 +11,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+@font-face {
+  font-family: 'Luminary KR';
+  font-style: normal;
+  font-weight: 100;
+  src: url("/src/assets/fonts/Luminari-Regular.woff") format('woff')
+}

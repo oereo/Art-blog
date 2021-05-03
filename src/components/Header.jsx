@@ -20,6 +20,7 @@ const Wrapper = styled.div`
 
     /* 폰트 */
     font-size: 1.5rem;
+    font-family: Luminary KR;
 `;
 
 const StyledLogo = styled.span`
