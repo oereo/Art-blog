@@ -7,7 +7,7 @@ import Navbar from "../src/containers/Navbar";
 
 function App() {
     return (
-        <div className="App">
+        <div className="App" style={{width:"100%"}}>
             <HeaderContainer/>
             <MainContainer/>
             <SubContainer/>
