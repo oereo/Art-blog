@@ -25,7 +25,7 @@ const ModelDescription = styled.div`
 `
 
 const SketchFab = styled.div`
-    margin: 0 0 0 -200px;
+    margin: 0 0 0 0;
     -moz-transform: scale(0.5, 0.5);
 `
 
@@ -38,7 +38,7 @@ const MainContent = () => (
             #001 Humming Bird
         </SubTitle>
         <SketchFab>
-            <iframe title="Chamber" width="110%" height="500px" frameBorder="0" allowFullScreen
+            <iframe title="Chamber" width="100%" height="500px" frameBorder="0" allowFullScreen
                     mozallowfullscreen="true"
                     webkitallowfullscreen="true" allow="fullscreen; autoplay; vr" xr-spatial-tracking
                     execution-while-out-of-viewport execution-while-not-rendered web-share loading="eager"

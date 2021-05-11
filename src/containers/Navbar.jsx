@@ -13,7 +13,6 @@ import MailIcon from '@material-ui/icons/Mail';
 import styled from "styled-components";
 
 import Menu from "../assets/images/menu_icon.jpg"
-import logo from "../assets/images/logo.png";
 
 const useStyles = makeStyles({
   list: {
@@ -92,7 +91,7 @@ export default function Navbar() {
         <React.Fragment key={anchor}>
           <Button onMouseEnter={toggleDrawer(anchor, true)}>
             <StyledDoor>
-              <img src={Menu} alt="menu"/>
+              <img style = {{width : "100%", height : "100%"}}src={Menu} alt="menu"/>
             </StyledDoor>
           </Button>
           <SwipeableDrawer
