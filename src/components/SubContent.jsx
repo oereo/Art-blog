@@ -1,19 +1,19 @@
 import styled from "styled-components";
-import firstImage from "../assets/images/_MG_0138.jpg";
-import secondImage from "../assets/images/_MG_0134.jpg";
-import thirdImage from "../assets/images/_MG_0251.jpg";
-import fourthImage from "../assets/images/_MG_0215.jpg";
-import fifthImage from "../assets/images/_MG_0388.jpg";
-import sixthImage from "../assets/images/_MG_0416.jpg";
-import seventhImage from "../assets/images/_MG_0425.jpg";
-import eighthImage from "../assets/images/_MG_0346.jpg";
-import ninthImage from "../assets/images/_MG_0084.JPG";
-import tenthImage from "../assets/images/_MG_0130.jpg";
-import elevenImage from "../assets/images/_MG_0134.jpg";
-import twelveImage from "../assets/images/_MG_0375.jpg";
-import thirteenImage from "../assets/images/_MG_0449.jpg";
-import fourteenImage from "../assets/images/_MG_0533.JPG";
-import footerImage from "../assets/images/1.jpg";
+import firstImg from "../assets/images/_MG_0138.jpg";
+import secondImg from "../assets/images/_MG_0134.jpg";
+import thirdImg from "../assets/images/_MG_0251.jpg";
+import fourthImg from "../assets/images/_MG_0215.jpg";
+import fifthImg from "../assets/images/_MG_0388.jpg";
+import sixthImg from "../assets/images/_MG_0416.jpg";
+import seventhImg from "../assets/images/_MG_0425.jpg";
+import eighthImg from "../assets/images/_MG_0346.jpg";
+import ninthImg from "../assets/images/_MG_0084.JPG";
+import tenthImg from "../assets/images/_MG_0130.jpg";
+import elevenImg from "../assets/images/_MG_0134.jpg";
+import twelveImg from "../assets/images/_MG_0375.jpg";
+import thirteenImg from "../assets/images/_MG_0449.jpg";
+import fourteenImg from "../assets/images/_MG_0533.JPG";
+import footerImg from "../assets/images/1.jpg";
 
 
 import Grid from '@material-ui/core/Grid';
@@ -55,7 +55,7 @@ const SubContent = () => (
                         height: "90%",
                         margin: "0 0 0 50px"
                     }}
-                    src={firstImage} alt="image"/>
+                    src={firstImg} alt="image"/>
             </Grid>
             <Grid item xs={3}>
                 <img
@@ -64,7 +64,7 @@ const SubContent = () => (
                         height: "90%",
                         margin: "0 0 0 50px"
                     }}
-                    src={secondImage} alt="image"/>
+                    src={secondImg} alt="image"/>
             </Grid>
             <Grid item xs={3} sm={3} direction="column"
                   align="left"
@@ -85,7 +85,7 @@ const SubContent = () => (
                         height: "70%",
                         margin: "20% 0 0 0"
                     }}
-                    src={thirdImage} alt="image"/>
+                    src={thirdImg} alt="image"/>
                 <div style={{textAlign: "center"}}>
                     (Circle)<br/>
                     book, written on paper, 2021
@@ -99,7 +99,7 @@ const SubContent = () => (
                         height: "90%",
                         margin: "0 0 0 0"
                     }}
-                    src={fourthImage} alt="image"/>
+                    src={fourthImg} alt="image"/>
             </Grid>
             <Grid item xs={12} style={{margin: "10% 0 0 0"}}>
                 <br/>
@@ -113,7 +113,7 @@ const SubContent = () => (
                         height: "80vh",
                         margin: "20% 0 0 0"
                     }}
-                    src={fifthImage} alt="image"/>
+                    src={fifthImg} alt="image"/>
                 (Untitled)<br/>
                 towel, hair, glue, 2021
 
@@ -128,7 +128,7 @@ const SubContent = () => (
                             height: "65vh",
                             margin: "0 0 0 20%"
                         }}
-                        src={sixthImage} alt="image"/>
+                        src={sixthImg} alt="image"/>
                 </Grid>
                 <Grid item xs={6}>
                     <img
@@ -137,7 +137,7 @@ const SubContent = () => (
                             height: "21vh",
                             margin: "15% 0 0 80%"
                         }}
-                        src={seventhImage} alt="image"/>
+                        src={seventhImg} alt="image"/>
                 </Grid>
             </Grid>
             <Grid item xs={12} style={{margin: "10% 0 0 0"}}>
@@ -152,7 +152,7 @@ const SubContent = () => (
                         height: "100%",
                         margin: "0 0 0 10%"
                     }}
-                    src={eighthImage} alt="image"/>
+                    src={eighthImg} alt="image"/>
                 <div style={{textAlign: "center", margin: "0 0 0 10%"}}>
                     (Untitled)<br/>
                     box, printed photo, stocking, yarn, 2021
@@ -168,7 +168,7 @@ const SubContent = () => (
                         height: "90%",
                         margin: "0 0 0 50px"
                     }}
-                    src={ninthImage} alt="image"/>
+                    src={ninthImg} alt="image"/>
             </Grid>
             <Grid item xs={4}>
                 <img
@@ -177,7 +177,7 @@ const SubContent = () => (
                         height: "90%",
                         margin: "0 0 0 10%"
                     }}
-                    src={tenthImage} alt="image"/>
+                    src={tenthImg} alt="image"/>
             </Grid>
             <Grid item xs={3}>
                 <Grid item xs={12}>
@@ -193,7 +193,7 @@ const SubContent = () => (
                             height: "40vh",
                             margin: "7% 0 0 15%"
                         }}
-                        src={elevenImage} alt="image"/>
+                        src={elevenImg} alt="image"/>
                 </Grid>
             </Grid>
             <Grid item xs={12} style={{margin: "20% 0 0 0"}}>
@@ -209,7 +209,7 @@ const SubContent = () => (
                         height: "90%",
                         margin: "7% 0 0 10%"
                     }}
-                    src={twelveImage} alt="image"/>
+                    src={twelveImg} alt="image"/>
             </Grid>
             <Grid item xs={5}>
                 <div style={{textAlign: "right", margin: "140% 0 0 10%"}}>
@@ -230,7 +230,7 @@ const SubContent = () => (
                         height: "90%",
                         margin: "7% 0 0 10%"
                     }}
-                    src={fourteenImage} alt="image"/>
+                    src={fourteenImg} alt="image"/>
                 <div style={{textAlign: "left", margin: "0% 0 0 10%"}}>
                     (기지개 Stretching)<br/>
                     clay, acrylic, 2021
@@ -249,7 +249,7 @@ const SubContent = () => (
                         height: "100%",
                         margin: "-40% 0 0 10%"
                     }}
-                    src={thirteenImage} alt="image"/>
+                    src={thirteenImg} alt="image"/>
             </Grid>
             <Grid item xs={6}
                   display="flex"
@@ -272,7 +272,7 @@ const SubContent = () => (
                         height: "100%",
                         margin: "0"
                     }}
-                    src={footerImage} alt="image"/>
+                    src={footerImg} alt="image"/>
             </Grid>
             <Grid item xs={4}>
 
