@@ -28,43 +28,6 @@ const ProjectDescription = styled.div`
     font-family: Luminary KR;
 `
 
-const ProjectContent = styled.div`
-    font-size : 20px;
-    font-family: Luminary KR;
-`
-
-const ImageDescription = styled.div`
-    font-family : Luminary KR;
-    font-size: 12px;
-    margin : 0 0 0 10px;
-    width : 19%;
-    float : right;
-    vertical-align : bottom;
-    padding : 50% 9% 0 0;
-`
-const ThirdImageDescription = styled.div`
-    font-family : Luminary KR;
-    font-size: 12px;
-    margin : 0 0 0 20px;
-    width : 20%;
-    float : left;
-    vertical-align : bottom;
-    padding : 50% 9% 0 0;
-`
-const FirstLine = styled.div`
-    margin:40px 0 100px 0;
-    display: block;
-    float : left;
-`
-const SecondLine = styled.div`
-    width : 100%;
-    width : 100%;
-    margin:40px 0 100px 0;
-    display: inline;
-    float : right;
-    text-align : left;
-`
-
 const SubContent = () => (
     <>
         <ProjectDescription>
