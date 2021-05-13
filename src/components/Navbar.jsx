@@ -5,7 +5,7 @@ import styled from "styled-components";
 const StyledDoor = styled.span`
     display: flex;
     height: 120px;
-    margin:0 50px 0 0;
+    margin:40px 50px 0 0;
     width: 70px;
     float: right;
     
@@ -17,7 +17,7 @@ const StyledDoor = styled.span`
 class Submenu extends React.Component {
     render() {
         return (
-            <ul className="nav__submenu" style={{float:"right", margin: "120px -95px 0 0"}}>
+            <ul className="nav__submenu" style={{float:"right", margin: "160px -95px 0 0"}}>
                 <li className="nav__submenu-item " style={{listStyle:"none"}}>
                     <a>Chamber Project</a>
                 </li>

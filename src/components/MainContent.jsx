@@ -4,7 +4,7 @@ import styled from "styled-components";
 const MainTitle = styled.div`
     display: flex;
     font-size: 66px;
-    margin: 0px 0 0 50px;
+    margin: -16px 0 0 50px;
     font-family: Luminary KR;
     padding-top:40px;
 `
