@@ -90,7 +90,7 @@ export default function Navbar() {
   );
 
   return (
-    <StyledNavbar>
+    <StyledNavbar style = {{backgroundColor:"black"}}>
       {['right'].map((anchor) => (
         <React.Fragment key={anchor}>
           <Button onMouseEnter={toggleDrawer(anchor, true)}>

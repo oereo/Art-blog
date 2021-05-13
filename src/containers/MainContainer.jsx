@@ -5,7 +5,7 @@ import Navbar from "./Navbar";
 function MainContainer() {
     return (
         <div>
-            <Navbar/>
+            {/*<Navbar/>*/}
             <MainContent/>
         </div>
     );
