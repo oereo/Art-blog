@@ -31,6 +31,8 @@ const StyledNavbar = styled.div`
     justify-content: right;
     float: right;
     padding-top:40px;
+    background-color : None;
+    opacity : 0.5;
 `
 
 const StyledDoor = styled.span`

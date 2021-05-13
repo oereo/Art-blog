@@ -6,7 +6,7 @@ import SubContainer from "./containers/SubContainer";
 function App() {
     return (
         <div className="App" style={{width:"100%"}}>
-            <HeaderContainer/>
+            {/*<HeaderContainer/>*/}
             <MainContainer/>
             <SubContainer/>
         </div>

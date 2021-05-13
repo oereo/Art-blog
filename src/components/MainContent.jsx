@@ -3,17 +3,17 @@ import styled from "styled-components";
 
 const MainTitle = styled.div`
     display: flex;
-    font-size: 60px;
-    margin:50px 0 0 50px;
+    font-size: 66px;
+    margin:0px 0 0 50px;
     font-family: Luminary KR;
     padding-top:40px;
 `
 
 const SubTitle = styled.div`
     display: flex;
-    font-size: 30px;
+    font-size: 42px;
     margin: 0px 0px 20px 50px;
-    font-family: Luminary KR;
+    font-family: Bodoni;
 `
 
 const ModelDescription = styled.div`
@@ -42,7 +42,7 @@ const MainContent = () => (
                     mozallowfullscreen="true"
                     webkitallowfullscreen="true" allow="fullscreen; autoplay; vr" xr-spatial-tracking
                     execution-while-out-of-viewport execution-while-not-rendered web-share loading="eager"
-                    src="https://sketchfab.com/models/652c512b427e4fa0a3865c994c7ea94a/embed?autospin=0&autostart=1&preload=1&ui_theme=dark&ui_hint=2&amp;autospin=0.2&max_texture_size=256"></iframe>
+                    src="https://sketchfab.com/models/652c512b427e4fa0a3865c994c7ea94a/embed?autospin=0&autostart=1&preload=1&ui_theme=dark&ui_hint=2&amp;&max_texture_size=1024"></iframe>
         </SketchFab>
         <ModelDescription>
             to rotate camera: click+drag or one finger drag<br/>

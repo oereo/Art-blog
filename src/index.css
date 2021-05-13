@@ -11,9 +11,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
 @font-face {
   font-family: 'Luminary KR';
   font-style: normal;
   font-weight: 100;
   src: url("/src/assets/fonts/Luminari-Regular.woff") format('woff')
+}
+
+@font-face {
+  font-family: 'Bodoni';
+  font-style: normal;
+  font-weight: 100;
+  src: url("/src/assets/fonts/Bodoni-72-Smallcaps-Book.ttf") format('woff')
 }
