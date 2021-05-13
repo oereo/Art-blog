@@ -17,11 +17,12 @@ const SubTitle = styled.div`
 `
 
 const ModelDescription = styled.div`
-    font-size : 15px;
+    font-size : 18px;
     display: flex;
     margin-top: 10px;
     align-items: center;
     justify-content: center;
+    font-family: Apple Gothic;
 `
 
 const SketchFab = styled.div`

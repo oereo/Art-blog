@@ -9,7 +9,7 @@ import seventhImg from "../assets/images/_MG_0425.jpg";
 import eighthImg from "../assets/images/_MG_0346.jpg";
 import ninthImg from "../assets/images/_MG_0084.JPG";
 import tenthImg from "../assets/images/_MG_0130.jpg";
-import elevenImg from "../assets/images/_MG_0134.jpg";
+import elevenImg from "../assets/images/_MG_0357.jpg";
 import twelveImg from "../assets/images/_MG_0375.jpg";
 import thirteenImg from "../assets/images/_MG_0449.jpg";
 import fourteenImg from "../assets/images/_MG_0533.JPG";
@@ -23,66 +23,67 @@ import React from "react";
 const ProjectDescription = styled.div`
     display: flex;
     font-size: 30px;
-    width : 80%;
-    margin: 50px 0 0 10%;
-    font-family: Luminary KR;
+    margin: 50px 5% 0 5%;
+    font-family: Courier New;
 `
 
 const SubContent = () => (
     <>
         <ProjectDescription>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-            industry's
-            standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
-            make
-            a type specimen book. It has survived not only five centuries, but also the leap into electronic
-            typesetting,
-            remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets
-            containing
-            Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including
-            versions
-            of Lorem Ipsum.
+            A room of one's own indicates one's mind. Have you ever heard of the voice of objects when you slide into
+            someone else's personal space? The space and the object are organically formed that become a gate to the
+            world of cohabitant, having a role of interface. Chamber Project enable us to open the gate of rooms of
+            imaginary ones regardless of space and time, through the 3D version. The chamber signifies '-sil' which
+            means a room for specific purpose, '-sil' which means a room in terms of cardiac things at once. Each
+            chamber is drawing its breath as chambers of heart do. Unlike the room of reality, we would spend our time
+            more innerly and clandestinely in the virtual 3D space.
         </ProjectDescription>
 
-        <Grid container spacing={3} style={{margin: "100px 0 0 0"}}>
-            <Grid item xs={12} style={{margin: "10% 0 0 0"}}>
+        <Grid container spacing={3} style={{margin: "100px 0 0 50px", display:"flex"}}>
+            <Grid item xs={12} style={{margin: "20% 0 0 0"}}>
                 <br/>
             </Grid>
-            <Grid item xs={3}>
+            <Grid item lg={3} md={4} sm={6} xs={12}>
                 <img
                     style={{
-                        width: "100%",
-                        height: "90%",
-                        margin: "0 0 0 50px"
+                        width: "120%",
+                        height: "120%",
+                        margin:"0 0 0 0",
+                        objectFit:"fill"
                     }}
                     src={firstImg} alt="im"/>
             </Grid>
-            <Grid item xs={3}>
+            <Grid item lg={3} md={4} sm={6} xs={12}>
                 <img
                     style={{
-                        width: "100%",
-                        height: "90%",
-                        margin: "0 0 0 50px"
+                        width: "120%",
+                        height: "120%",
+                        margin: "0 0 0 150px",
+                        objectFit:"cover"
                     }}
                     src={secondImg} alt="im"/>
             </Grid>
-            <Grid item xs={3} sm={3} direction="column"
-                  align="left"
-                  style={{display: "flex", justifyContent: "flex-end", padding: "0 0 5% 0", margin: "0 0 0 50px"}}>
+            <Grid item lg={3} md={4} sm={6} xs={12} direction="column"
+                  // align="left"
+                  style={{
+                      // display: "flex",
+                      padding: "50px 0 0 0",
+                      margin: "200px 0 0 240px",
+                  }}>
                 (Fog)<br/>
                 Dahee Kwon, Cloud oil on canvas, 2021
             </Grid>
-            <Grid item xs={12} style={{margin: "10% 0 0 0"}}>
+            <Grid item xs={12} style={{margin: "40% 0 0 0"}}>
                 <br/>
             </Grid>
-            <Grid item xs={3}>
+            <Grid item lg={3} md={4} sm={6} xs={12}>
 
             </Grid>
-            <Grid item xs={3}>
+            <Grid item lg={3} md={4} sm={6} xs={12}>
                 <img
                     style={{
-                        width: "100%",
-                        height: "70%",
+                        width: "110%",
+                        height: "90%",
                         margin: "20% 0 0 0"
                     }}
                     src={thirdImg} alt="im"/>
@@ -95,13 +96,13 @@ const SubContent = () => (
             <Grid item xs={4}>
                 <img
                     style={{
-                        width: "100%",
-                        height: "90%",
-                        margin: "0 0 0 0"
+                        width: "110%",
+                        height: "110%",
+                        margin: "0 0 0 10%"
                     }}
                     src={fourthImg} alt="im"/>
             </Grid>
-            <Grid item xs={12} style={{margin: "10% 0 0 0"}}>
+            <Grid item xs={12} style={{margin: "40% 0 0 0"}}>
                 <br/>
             </Grid>
             <Grid item xs={1}>
@@ -109,8 +110,8 @@ const SubContent = () => (
             <Grid item xs={4}>
                 <img
                     style={{
-                        width: "40vw",
-                        height: "80vh",
+                        width: "100%",
+                        height: "100%",
                         margin: "20% 0 0 0"
                     }}
                     src={fifthImg} alt="im"/>
@@ -124,23 +125,24 @@ const SubContent = () => (
                 <Grid item xs={6}>
                     <img
                         style={{
-                            width: "20vw",
-                            height: "65vh",
-                            margin: "0 0 0 20%"
+                            width: "130%",
+                            height: "120%",
+                            margin: "0 0 0 20%",
+                            padding: "10% 0 0 0 "
                         }}
                         src={sixthImg} alt="im"/>
                 </Grid>
                 <Grid item xs={6}>
                     <img
                         style={{
-                            width: "20vw",
-                            height: "21vh",
+                            width: "130%",
+                            height: "120%",
                             margin: "15% 0 0 80%"
                         }}
                         src={seventhImg} alt="im"/>
                 </Grid>
             </Grid>
-            <Grid item xs={12} style={{margin: "10% 0 0 0"}}>
+            <Grid item xs={12} style={{margin: "40% 0 0 0"}}>
                 <br/>
             </Grid>
             <Grid item xs={4}>
@@ -268,8 +270,8 @@ const SubContent = () => (
             <Grid item xs={4}>
                 <img
                     style={{
-                        width: "100%",
-                        height: "100%",
+                        width: "70%",
+                        height: "70%",
                         margin: "0"
                     }}
                     src={footerImg} alt="im"/>
@@ -279,17 +281,11 @@ const SubContent = () => (
             </Grid>
         </Grid>
         <ProjectDescription>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-            industry's
-            standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
-            make
-            a type specimen book. It has survived not only five centuries, but also the leap into electronic
-            typesetting,
-            remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets
-            containing
-            Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including
-            versions
-            of Lorem Ipsum.
+Nest of a hummingbird is consist of cotton, moss and web, differentiated from any other nests. These enigmatic materials make them more flexible and infrangible. She is captivated by that distinctive identity. A gleam of the nest of hummingbird looks like an amethyst in her eyes. Every night, she observes the body of her own covered with tiny water drops in the tub. Close her eyes, Imagine a white circle. What can we see inside the circle? She opens her eyes again, stares her body. The Blue body.
+<br/>
+            <br/>
+A Private Bond.<br/>
+Dream flows from the outside of sleep.
         </ProjectDescription>
         <Grid container spacing={3} style={{margin: "100px 0 0 0"}}>
             <Grid item xs={12} style={{margin: "10% 0 0 0"}}>

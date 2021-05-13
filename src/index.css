@@ -1,27 +1,41 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #dddddd;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
 
 @font-face {
-  font-family: 'Luminary KR';
-  font-style: normal;
-  font-weight: 100;
-  src: url("/src/assets/fonts/Luminari-Regular.woff") format('woff')
+    font-family: 'Luminary KR';
+    font-style: normal;
+    font-weight: 100;
+    src: url("/src/assets/fonts/Luminari-Regular.woff") format('woff')
 }
 
 @font-face {
-  font-family: 'Bodoni';
-  font-style: normal;
-  font-weight: 100;
-  src: url("/src/assets/fonts/Bodoni-72-Smallcaps-Book.ttf") format('woff')
+    font-family: 'Bodoni';
+    font-style: normal;
+    font-weight: 100;
+    src: url("/src/assets/fonts/Bodoni-72-Smallcaps-Book.ttf") format('woff')
+}
+
+@font-face {
+    font-family: 'Apple Gothic';
+    font-style: normal;
+    font-weight: 100;
+    src: url("/src/assets/fonts/AppleSDGothicNeoM.ttf") format('woff')
+}
+
+@font-face {
+    font-family: "Courier New";
+    src: url("//db.onlinewebfonts.com/t/72c75860d89e91a517dfb1e7d308c180.eot");
+    src: url("//db.onlinewebfonts.com/t/72c75860d89e91a517dfb1e7d308c180.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/72c75860d89e91a517dfb1e7d308c180.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/72c75860d89e91a517dfb1e7d308c180.woff") format("woff"), url("//db.onlinewebfonts.com/t/72c75860d89e91a517dfb1e7d308c180.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/72c75860d89e91a517dfb1e7d308c180.svg#Courier New") format("svg");
 }
