@@ -1,7 +1,6 @@
 import './App.css';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import MainContainer from "./containers/MainContainer";
-import SubContainer from "./containers/SubContainer";
 import EmailPage from "./containers/EmailPage";
 
 function App() {

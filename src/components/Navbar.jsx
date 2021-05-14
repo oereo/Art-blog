@@ -20,10 +20,7 @@ class Submenu extends React.Component {
         return (
             <ul className="nav__submenu" style={{float:"right", margin: "160px -95px 0 0"}}>
                 <li className="nav__submenu-item " style={{listStyle:"none"}}>
-                    <Link to = "/" style={
-                        {textDecoration:"none",
-                        color: "black"}
-                    }>Chamber Project</Link>
+                    <Link to = "/" style={{textDecoration:"none", color: "black"}}>Chamber Project</Link>
                 </li>
 
             </ul>
@@ -52,11 +49,11 @@ class Menu extends React.Component {
             <nav className="nav">
                 <ul className="nav__menu" style={{listStyle:"none"}}>
                     <li className="nav__menu-item" onMouseLeave={this.handleLeave} style={{listStyle:"none", paddingLeft:"0px"}}>
-                        <a onMouseEnter={this.handleHover}>
+                        <div onMouseEnter={this.handleHover}>
                             <StyledDoor>
                                 <img style={{width: "100%", height: "100%"}} src={MenuIcon} alt="menu"/>
                             </StyledDoor>
-                        </a>
+                        </div>
                         <div className="submenu-container">
                             {this.state.showAboutMenu && <Submenu/>}
                         </div>
