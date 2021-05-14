@@ -20,6 +20,7 @@ import antImg from "../assets/images/개미.jpg";
 import Grid from '@material-ui/core/Grid';
 
 import React from "react";
+import {Link} from 'react-router-dom';
 
 const ProjectDescription = styled.div`
     display: flex;
@@ -293,17 +294,16 @@ Dream flows from the outside of sleep.
                 <br/>
             </Grid>
             <Grid item xs={4} style={{margin: "10% 0 0 0"}}>
+                <Link to = "/email">
                 <img
                     style={{
                         width: "70%",
                         height: "70%",
                         margin: "0"
                     }}
-                    src={antImg} alt="im"/>
+                    src={antImg} alt="im"/></Link>
             </Grid>
-
         </Grid>
-
     </>
 
 );

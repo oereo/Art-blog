@@ -1,12 +1,14 @@
 import React from 'react';
 import MainContent from "../components/MainContent";
-import Navbar from "./Navbar";
+import Menu from "../components/Navbar";
+import SubContent from "../components/SubContent";
 
 function MainContainer() {
     return (
         <div>
-            {/*<Navbar/>*/}
+            <Menu/>
             <MainContent/>
+            <SubContent/>
         </div>
     );
 }
