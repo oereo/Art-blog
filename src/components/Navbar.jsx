@@ -1,6 +1,7 @@
 import React from 'react';
 import MenuIcon from "../assets/images/menu_icon.jpg"
 import styled from "styled-components";
+import {Link} from 'react-router-dom';
 
 const StyledDoor = styled.span`
     display: flex;
@@ -19,7 +20,10 @@ class Submenu extends React.Component {
         return (
             <ul className="nav__submenu" style={{float:"right", margin: "160px -95px 0 0"}}>
                 <li className="nav__submenu-item " style={{listStyle:"none"}}>
-                    <a>Chamber Project</a>
+                    <Link to = "/" style={
+                        {textDecoration:"none",
+                        color: "black"}
+                    }>Chamber Project</Link>
                 </li>
 
             </ul>
