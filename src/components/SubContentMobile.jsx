@@ -72,7 +72,7 @@ const SubContentMobile = () => (
                       // display: "flex",
                       padding: "85% 0 0 0",
                       margin: "0 0px 0 0",
-                      fontSize: "5px"
+                      fontSize: "7px"
                   }}>
                 {"<"}Fog{">"}<br/>
                 Dahee Kwon, Cloud oil on canvas, 2021
@@ -108,7 +108,7 @@ const SubContentMobile = () => (
 
                     }}
                     src={seventhImg} alt="im"/>
-                <span style={{float: "right", fontSize: "10px", textAlign: "right", margin: "0 15px 0 0"}}>
+                <span style={{float: "right", fontSize: "7px", textAlign: "right", margin: "0 15px 0 0"}}>
                                 {"<"}Untitled{">"}<br/>
                 towel, hair, glue, 2021
                     </span>
@@ -136,7 +136,7 @@ const SubContentMobile = () => (
                     src={fourthImg} alt="im"/>
             </Grid>
             <Grid item lg={3} md={4} sm={6} xs={6} style={{padding: "100% 0px 0 10px", float: "bottom"}}>
-                <div style={{textAlign: "left", fontSize: "5px", margin: "60px, 0 0 0"}}>
+                <div style={{textAlign: "left", fontSize: "7px", margin: "60px, 0 0 0"}}>
                     {"<"}Circle{">"}<br/>
                     book, written on paper, 2021
                 </div>
@@ -204,7 +204,7 @@ const SubContentMobile = () => (
                     src={ninthImg} alt="im"/>
             </Grid>
             <Grid item xs={7}>
-                <div style={{textAlign: "right", padding: "72% 0 0 0", fontSize: "5px"}}>
+                <div style={{textAlign: "right", padding: "72% 0 0 0", fontSize: "7px"}}>
                     {"<"}Becoming{">"}<br/>
                     Ceramic, 2021
                 </div>
@@ -247,7 +247,7 @@ const SubContentMobile = () => (
             <Grid item xs={12}
                   display="flex"
                   justify="center">
-                <div style={{textAlign: "center", fontSize:"5px"}}>
+                <div style={{textAlign: "center", fontSize:"7px"}}>
                     {"<"}더미 Dummy{">"} {" "}
                     mixed material, 2021
                 </div>
@@ -264,8 +264,8 @@ const SubContentMobile = () => (
                     }}
                     src={fourteenImg} alt="im"/>
             </Grid>
-            <Grid item xs = {6} style = {{padding:"70% 0 0 10%", fontSize:"5px"}}>
-                <div style={{textAlign: "left", margin: "0% 0 0 5%", fontSize:"5px"}}>
+            <Grid item xs = {6} style = {{padding:"70% 0 0 10%", fontSize:"7px"}}>
+                <div style={{textAlign: "left", margin: "0% 0 0 5%", fontSize:"7px"}}>
                     {"<"}기지개 Stretching{">"}<br/>
                     clay, acrylic, 2021
                 </div>
@@ -281,7 +281,7 @@ const SubContentMobile = () => (
                     src={twelveImg} alt="im"/>
             </Grid>
             <Grid item xs={12} style={{padding:"0 7% 0 0"}}>
-                <div style={{textAlign: "right", margin: "5% 0 0 0%", fontSize:"5px"}}>
+                <div style={{textAlign: "right", margin: "5% 0 0 0%", fontSize:"7px"}}>
                     {"<"}초심자의 마음 Beginners's mindset{">"}<br/>
                     written on paper, 2021
                 </div>
