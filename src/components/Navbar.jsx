@@ -20,7 +20,7 @@ class Submenu extends React.Component {
         return (
             <ul className="nav__submenu" style={{float:"right", margin: "160px -95px 0 0"}}>
                 <li className="nav__submenu-item " style={{listStyle:"none"}}>
-                    <Link to = "/" style={{textDecoration:"none", color: "black"}}>Chamber Project</Link>
+                    <Link to = "/" style={{textDecoration:"none", color: "black"}}>Humming Bird</Link>
                 </li>
 
             </ul>
