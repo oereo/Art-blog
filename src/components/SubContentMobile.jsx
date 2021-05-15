@@ -27,6 +27,7 @@ const ProjectDescription = styled.div`
     font-size: 15px;
     margin: 50px 5% 0 5%;
     font-family: Courier New;
+    line-height: 160%;
 `
 
 const SubContentMobile = () => (
@@ -292,12 +293,12 @@ const SubContentMobile = () => (
             <Grid item xs={4}>
 
             </Grid>
-            <Grid item xs={4}>
+            <Grid item xs={4} style={{textAlign:"center", margin:"0 0 -7% 0"}}>
                 <img
                     style={{
                         width: "70%",
-                        height: "70%",
-                        margin: "0"
+                        height: "100%",
+                        margin: "0 0 0 0 "
                     }}
                     src={footerImg} alt="im"/>
             </Grid>
@@ -317,7 +318,7 @@ const SubContentMobile = () => (
             Dream flows from the outside of sleep.
         </ProjectDescription>
         <Grid container spacing={3}>
-            <Grid item xs={6} style={{margin: "10% 0 0 0"}}>
+            <Grid item xs={7} style={{margin: "10% 0 0 0"}}>
                 <br/>
             </Grid>
             <Grid item xs={4} style={{margin: "10% 0 0 0"}}>
@@ -325,7 +326,7 @@ const SubContentMobile = () => (
                     <img
                         style={{
                             width: "70%",
-                            height: "70%",
+                            height: "100%",
                             margin: "0"
                         }}
                         src={antImg} alt="im"/></Link>

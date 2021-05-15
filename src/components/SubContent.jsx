@@ -229,7 +229,7 @@ const SubContent = () => (
             <Grid item xs={12} style={{margin: "40% 0 0 0"}}>
 
             </Grid>
-            <Grid item xs={1}>
+            <Grid item xs={2}>
 
             </Grid>
             <Grid item xs={3} style={{padding:"0 0 0 0"}}>
@@ -237,7 +237,8 @@ const SubContent = () => (
                     style={{
                         width: "100%",
                         height: "100%",
-                        margin: "7% 0 0 25%"
+                        margin: "0 0 0 0",
+                        objectFit:"cover"
                     }}
                     src={fourteenImg} alt="im"/>
                 <div style={{textAlign: "left", margin: "0% 0 0 25%"}}>
@@ -255,7 +256,9 @@ const SubContent = () => (
                     style={{
                         width: "100%",
                         height: "100%",
-                        margin: "-40% 0 0 15%"
+                        margin: "-40% 0 0 15%",
+                        objectFit:"cover"
+
                     }}
                     src={thirteenImg} alt="im"/>
             </Grid>
