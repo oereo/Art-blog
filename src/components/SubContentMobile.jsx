@@ -27,7 +27,7 @@ const ProjectDescription = styled.div`
     font-size: 15px;
     margin: 50px 5% 0 5%;
     font-family: Courier New;
-    line-height: 160%;
+    line-height: 200%;
 `
 
 const SubContentMobile = () => (
