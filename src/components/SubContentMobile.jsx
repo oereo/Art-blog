@@ -56,23 +56,23 @@ const SubContentMobile = () => (
                     }}
                     src={firstImg} alt="im"/>
             </Grid>
-            <Grid item lg={3} md={4} sm={6} xs={6} style={{padding: "20px 5px 0 0px"}}>
+            <Grid item lg={3} md={4} sm={6} xs={7} style={{padding: "20px 5px 0 0px"}}>
                 <img
                     style={{
                         width: "100%",
                         height: "100%",
                         margin: "0 0 0 0px",
-                        objectFit: "fill"
+                        objectFit: "cover"
                     }}
                     src={secondImg} alt="im"/>
             </Grid>
-            <Grid item lg={3} md={4} sm={6} xs={6} direction="column"
+            <Grid item lg={3} md={4} sm={6} xs={5} direction="column"
                 // align="left"
                   style={{
                       // display: "flex",
-                      padding: "72% 0 0 0",
+                      padding: "85% 0 0 0",
                       margin: "0 0px 0 0",
-                      fontSize: "6px"
+                      fontSize: "5px"
                   }}>
                 {"<"}Fog{">"}<br/>
                 Dahee Kwon, Cloud oil on canvas, 2021
@@ -136,7 +136,7 @@ const SubContentMobile = () => (
                     src={fourthImg} alt="im"/>
             </Grid>
             <Grid item lg={3} md={4} sm={6} xs={6} style={{padding: "100% 0px 0 10px", float: "bottom"}}>
-                <div style={{textAlign: "left", fontSize: "7px", margin: "60px, 0 0 0"}}>
+                <div style={{textAlign: "left", fontSize: "5px", margin: "60px, 0 0 0"}}>
                     {"<"}Circle{">"}<br/>
                     book, written on paper, 2021
                 </div>
@@ -204,7 +204,7 @@ const SubContentMobile = () => (
                     src={ninthImg} alt="im"/>
             </Grid>
             <Grid item xs={7}>
-                <div style={{textAlign: "right", padding: "70% 0 0 0", fontSize: "7px"}}>
+                <div style={{textAlign: "right", padding: "72% 0 0 0", fontSize: "5px"}}>
                     {"<"}Becoming{">"}<br/>
                     Ceramic, 2021
                 </div>
@@ -247,7 +247,7 @@ const SubContentMobile = () => (
             <Grid item xs={12}
                   display="flex"
                   justify="center">
-                <div style={{textAlign: "center", fontSize:"7px"}}>
+                <div style={{textAlign: "center", fontSize:"5px"}}>
                     {"<"}더미 Dummy{">"} {" "}
                     mixed material, 2021
                 </div>
