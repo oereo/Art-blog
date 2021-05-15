@@ -69,9 +69,9 @@ const SubContentMobile = () => (
                 // align="left"
                   style={{
                       // display: "flex",
-                      padding: "260px 0 0 0",
+                      padding: "72% 0 0 0",
                       margin: "0 0px 0 0",
-                      fontSize: "5px"
+                      fontSize: "6px"
                   }}>
                 {"<"}Fog{">"}<br/>
                 Dahee Kwon, Cloud oil on canvas, 2021
@@ -107,7 +107,7 @@ const SubContentMobile = () => (
 
                     }}
                     src={seventhImg} alt="im"/>
-                <span style={{float: "right", fontSize: "10px", textAlign: "right", margin: "0 10px 0 0"}}>
+                <span style={{float: "right", fontSize: "10px", textAlign: "right", margin: "0 15px 0 0"}}>
                                 {"<"}Untitled{">"}<br/>
                 towel, hair, glue, 2021
                     </span>
@@ -259,7 +259,7 @@ const SubContentMobile = () => (
                     style={{
                         width: "100%",
                         height: "100%",
-                        margin: "7% 0 0 20%"
+                        margin: "0% 0 0 20%"
                     }}
                     src={fourteenImg} alt="im"/>
             </Grid>
