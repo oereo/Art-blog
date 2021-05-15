@@ -43,7 +43,7 @@ const MainContentMobile = () => (
                     mozallowfullscreen="true"
                     webkitallowfullscreen="true" allow="fullscreen; autoplay; vr" xr-spatial-tracking
                     execution-while-out-of-viewport execution-while-not-rendered web-share loading="eager"
-                    src="https://sketchfab.com/models/652c512b427e4fa0a3865c994c7ea94a/embed?autospin=0&autostart=1&preload=1&ui_theme=dark&ui_hint=2&amp;&max_texture_size=1024"></iframe>
+                    src="https://sketchfab.com/models/652c512b427e4fa0a3865c994c7ea94a/embed?autospin=0&autostart=1&preload=1&ui_theme=dark&ui_hint=2&amp;&max_texture_size=8192"></iframe>
         </SketchFab>
         <ModelDescription>
             to rotate camera: click+drag or one finger drag<br/>
