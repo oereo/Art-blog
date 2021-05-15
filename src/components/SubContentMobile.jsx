@@ -70,8 +70,8 @@ const SubContentMobile = () => (
                 // align="left"
                   style={{
                       // display: "flex",
-                      padding: "85% 0 0 0",
-                      margin: "0 0px 0 0",
+                      padding: "87% 0 0 0",
+                      margin: "0 0px 0 5px",
                       fontSize: "7px"
                   }}>
                 {"<"}Fog{">"}<br/>
@@ -204,7 +204,7 @@ const SubContentMobile = () => (
                     src={ninthImg} alt="im"/>
             </Grid>
             <Grid item xs={7}>
-                <div style={{textAlign: "right", padding: "72% 0 0 0", fontSize: "7px"}}>
+                <div style={{textAlign: "right", padding: "75% 0 0 0", fontSize: "7px"}}>
                     {"<"}Becoming{">"}<br/>
                     Ceramic, 2021
                 </div>
