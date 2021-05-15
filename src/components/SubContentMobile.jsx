@@ -33,9 +33,9 @@ const ProjectDescription = styled.div`
 const SubContentMobile = () => (
     <>
         <ProjectDescription>
-            A room of one's own indicates one's mind. Have you ever heard of the voice of objects when you slide into
-            someone else's personal space? The space and the object are organically formed that become a gate to the
-            world of cohabitant, having a role of interface. Chamber Project enable us to open the gate of rooms of
+            A room of one's own indicates one's mind.<br/> Have you ever heard of the voice of objects when you slide into
+            someone else's personal space? <br/>The space and the object are organically formed that become a gate to the
+            world of cohabitant, having a role of interface. <br/><br/>Chamber Project enable us to open the gate of rooms of
             imaginary ones regardless of space and time, through the 3D version. The chamber signifies '-sil' which
             means a room for specific purpose, '-sil' which means a room in terms of cardiac things at once. Each
             chamber is drawing its breath as chambers of heart do. Unlike the room of reality, we would spend our time
@@ -309,7 +309,7 @@ const SubContentMobile = () => (
         <ProjectDescription>
             Nest of a hummingbird is consist of cotton, moss and web, differentiated from any other nests. These
             enigmatic materials make them more flexible and infrangible. She is captivated by that distinctive identity.
-            A gleam of the nest of hummingbird looks like an amethyst in her eyes. Every night, she observes the body of
+            A gleam of the nest of hummingbird looks like an amethyst in her eyes. <br/><br/>Every night, she observes the body of
             her own covered with tiny water drops in the tub. Close her eyes, Imagine a white circle. What can we see
             inside the circle? She opens her eyes again, stares her body. The Blue body.
             <br/>
