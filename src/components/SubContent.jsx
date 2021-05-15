@@ -27,6 +27,7 @@ const ProjectDescription = styled.div`
     font-size: 30px;
     margin: 50px 5% 0 5%;
     font-family: Courier New;
+    line-height:160%;
 `
 
 const SubContent = () => (
@@ -44,11 +45,11 @@ const SubContent = () => (
             more innerly and clandestinely in the virtual 3D space.
         </ProjectDescription>
 
-        <Grid container spacing={3} style={{margin: "100px 0 0 5%", display: "flex"}}>
+        <Grid container spacing={3} style={{margin: "100px 0 0 0", display: "flex"}}>
             <Grid item xs={12} style={{margin: "20% 0 0 0"}}>
                 <br/>
             </Grid>
-            <Grid item lg={4} md={4} sm={6} xs={12}>
+            <Grid item lg={4} md={4} sm={6} xs={12} style={{margin: "0 0 0 5%"}}>
                 <img
                     style={{
                         width: "100%",
@@ -126,7 +127,7 @@ const SubContent = () => (
             <Grid item xs={1}>
             </Grid>
             <Grid item lg={5} xs={5} style={{padding: "0 0 0 0"}}>
-                <Grid item lg={6} xs={6}>
+                <Grid item lg={6} xs={6} style={{padding: "0 0 0 0"}}>
                     <img
                         style={{
                             width: "120%",
@@ -142,7 +143,7 @@ const SubContent = () => (
                             width: "100%",
                             height: "100%",
                             margin: "0 0 0 60%",
-                            padding: "70% 0 0 0"
+                            padding: "80% 0 0 0"
                         }}
                         src={seventhImg} alt="im"/>
                 </Grid>
@@ -152,7 +153,7 @@ const SubContent = () => (
             </Grid>
             <Grid item xs={4}>
             </Grid>
-            <Grid item xs={5}>
+            <Grid item lg={5} xs={5}>
                 <img
                     style={{
                         width: "110%",
@@ -168,27 +169,27 @@ const SubContent = () => (
             <Grid item xs={12} style={{margin: "60% 0 0 0"}}>
                 <br/>
             </Grid>
-            <Grid item xs={4}>
+            <Grid item xs={4} style={{padding:"0 0 0 0", margin:"0 0 0 5%"}}>
                 <img
                     style={{
-                        width: "100%",
-                        height: "100%",
+                        width: "90%",
+                        height: "90%",
                         margin: "0 0 0 0"
                     }}
                     src={ninthImg} alt="im"/>
             </Grid>
-            <Grid item xs={4}>
+            <Grid item xs={4} style={{padding:"0 0 0 0"}}>
                 <img
                     style={{
-                        width: "100%",
+                        width: "90%",
                         height: "90%",
-                        margin: "0 0 0 5%"
+                        margin: "0 0 0 0%"
                     }}
                     src={tenthImg} alt="im"/>
             </Grid>
-            <Grid item xs={3}>
+            <Grid item xs={3} style={{padding:"14% 0 0 0"}}>
                 <Grid item xs={12}>
-                    <div style={{textAlign: "left", margin: "90% 0 0 15%"}}>
+                    <div style={{textAlign: "left"}}>
                         {"<"}Becoming{">"}<br/>
                         Ceramic, 2021
                     </div>
@@ -196,9 +197,9 @@ const SubContent = () => (
                 <Grid item xs={12}>
                     <img
                         style={{
-                            width: "20vw",
-                            height: "40vh",
-                            margin: "7% 0 0 15%"
+                            width: "90%",
+                            height: "90%",
+                            margin: "5% 0 0 0"
                         }}
                         src={elevenImg} alt="im"/>
                 </Grid>
@@ -206,20 +207,21 @@ const SubContent = () => (
             <Grid item xs={12} style={{margin: "40% 0 0 0"}}>
 
             </Grid>
-            <Grid item xs={1}>
+            <Grid item lg={1}>
 
             </Grid>
-            <Grid item xs={5}>
+            <Grid item xs={5} style={{padding:"0 0 0 0"}}>
                 <img
                     style={{
                         width: "100%",
-                        height: "90%",
-                        margin: "7% 0 0 10%"
+                        height: "100%",
+                        margin: "0% 0 0 0%",
+                        objectFit:"fill"
                     }}
                     src={twelveImg} alt="im"/>
             </Grid>
-            <Grid item xs={5}>
-                <div style={{textAlign: "right", margin: "140% 0 0 10%"}}>
+            <Grid item xs={5}  style={{padding:"0 0 0 0"}}>
+                <div style={{textAlign: "right", margin: "0% 0 0 0%", padding:"142% 15% 0 0"}}>
                     {"<"}초심자의 마음 Beginners's mindset{">"}<br/>
                     written on paper, 2021
                 </div>
@@ -227,41 +229,40 @@ const SubContent = () => (
             <Grid item xs={12} style={{margin: "40% 0 0 0"}}>
 
             </Grid>
-            <Grid item xs={2}>
+            <Grid item xs={1}>
 
             </Grid>
-            <Grid item xs={3}>
+            <Grid item xs={3} style={{padding:"0 0 0 0"}}>
                 <img
                     style={{
-                        width: "110%",
-                        height: "90%",
-                        margin: "7% 0 0 10%"
+                        width: "100%",
+                        height: "100%",
+                        margin: "7% 0 0 25%"
                     }}
                     src={fourteenImg} alt="im"/>
-                <div style={{textAlign: "left", margin: "0% 0 0 10%"}}>
+                <div style={{textAlign: "left", margin: "0% 0 0 25%"}}>
                     {"<"}기지개 Stretching{">"}<br/>
                     clay, acrylic, 2021
                 </div>
             </Grid>
             <Grid item xs={12}>
             </Grid>
-            <Grid item xs={5}>
+            <Grid item xs={4} style={{padding:"0 10% 0 0"}}>
             </Grid>
-            <Grid item xs={1}>
-            </Grid>
-            <Grid item xs={4}>
+
+            <Grid item xs={5} style={{margin:"8% 0 0 8%", padding:"0 0 0 0"}}>
                 <img
                     style={{
-                        width: "120%",
+                        width: "100%",
                         height: "100%",
-                        margin: "-40% 0 0 10%"
+                        margin: "-40% 0 0 15%"
                     }}
                     src={thirteenImg} alt="im"/>
             </Grid>
             <Grid item xs={6}
                   display="flex"
                   justify="center">
-                <div style={{textAlign: "right", margin: "-36% -10% 0 0%"}}>
+                <div style={{textAlign: "right", margin: "-43% 5% 0 0%"}}>
                     {"<"}더미 Dummy{">"}<br/>
                     mixed material, 2021
                 </div>
@@ -272,12 +273,13 @@ const SubContent = () => (
             <Grid item xs={4}>
 
             </Grid>
-            <Grid item xs={4}>
+            <Grid item xs={4} style={{textAlign:"center"}}>
                 <img
                     style={{
                         width: "70%",
-                        height: "70%",
-                        margin: "0"
+                        height: "100%",
+                        margin: "0 0 0 0",
+
                     }}
                     src={footerImg} alt="im"/>
             </Grid>
@@ -297,15 +299,15 @@ const SubContent = () => (
             Dream flows from the outside of sleep.
         </ProjectDescription>
         <Grid container spacing={3} style={{margin: "100px 0 0 0"}}>
-            <Grid item xs={6} style={{margin: "10% 0 0 0"}}>
+            <Grid item xs={7} style={{margin: "10% 0 0 0"}}>
                 <br/>
             </Grid>
-            <Grid item xs={4} style={{margin: "10% 0 0 0"}}>
+            <Grid item lg={4} xs={4} style={{margin: "10% 0 0 0"}}>
                 <Link to="/email">
                     <img
                         style={{
                             width: "70%",
-                            height: "70%",
+                            height: "100%",
                             margin: "0"
                         }}
                         src={antImg} alt="im"/></Link>
