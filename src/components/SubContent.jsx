@@ -85,14 +85,17 @@ const SubContent = () => (
             <Grid item lg={3} md={4} sm={6} xs={12}>
 
             </Grid>
-            <Grid item lg={3} md={4} sm={6} xs={12} style={{padding: "5% 0 0 0"}}>
+            <Grid item lg={3} md={4} sm={6} xs={12} style={{padding: "17% 0 0 0"}}>
                 <img
                     style={{
                         width: "100%",
                         height: "100%",
+                        objectFit:"contain"
+
+
                     }}
                     src={thirdImg} alt="im"/>
-                <div style={{textAlign: "center"}}>
+                <div style={{textAlign: "center", margin:"-3% 0 0 0"}}>
                     {"<"}Circle{">"}<br/>
                     book, written on paper, 2021
                 </div>
@@ -101,9 +104,10 @@ const SubContent = () => (
             <Grid item lg={3} xs={4}>
                 <img
                     style={{
-                        width: "120%",
-                        height: "120%",
-                        margin: "0 0 0 10%"
+                        width: "130%",
+                        height: "130%",
+                        margin: "0 0 0 10%",
+                        objectFit:"contain"
                     }}
                     src={fourthImg} alt="im"/>
             </Grid>
@@ -238,7 +242,7 @@ const SubContent = () => (
                         width: "100%",
                         height: "100%",
                         margin: "0 0 0 0",
-                        objectFit:"cover"
+                        objectFit:"contain "
                     }}
                     src={fourteenImg} alt="im"/>
                 <div style={{textAlign: "left", margin: "0% 0 0 25%"}}>
@@ -251,13 +255,13 @@ const SubContent = () => (
             <Grid item xs={4} style={{padding:"0 10% 0 0"}}>
             </Grid>
 
-            <Grid item xs={5} style={{margin:"8% 0 0 8%", padding:"0 0 0 0"}}>
+            <Grid item xs={6} style={{margin:"8% 0 0 8%", padding:"0 0 0 0"}}>
                 <img
                     style={{
                         width: "100%",
                         height: "100%",
-                        margin: "-40% 0 0 15%",
-                        objectFit:"cover"
+                        margin: "-40% 0 0 5%",
+                        objectFit:"contain "
 
                     }}
                     src={thirteenImg} alt="im"/>
@@ -265,7 +269,7 @@ const SubContent = () => (
             <Grid item xs={6}
                   display="flex"
                   justify="center">
-                <div style={{textAlign: "right", margin: "-43% 5% 0 0%"}}>
+                <div style={{textAlign: "right", margin: "-50% 0% 0 0%"}}>
                     {"<"}더미 Dummy{">"}<br/>
                     mixed material, 2021
                 </div>
